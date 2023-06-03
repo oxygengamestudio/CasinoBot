@@ -1,10 +1,15 @@
 {
-  "manifest_version": 2,
-  "name": "Roulette Bot",
-  "version": "1.0",
-  "permissions": ["tabs", "<all_urls>"],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "manifest_version": 2,
+    "name": "Blackjack Bot",
+    "version": "1.0",
+    "permissions": ["activeTab", "storage"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
   }
-}
+  
