@@ -1,3 +1,4 @@
+from blackjack_bot import BlackjackBot
 import tkinter as tk
 import threading
 from tkinter import ttk
